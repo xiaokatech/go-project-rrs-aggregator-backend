@@ -1,5 +1,7 @@
 .vscode
+
 go-project-rrs-aggregator-backend
+
 .env*
 
 
