@@ -88,5 +88,4 @@ func scrapFeed(db *database.Queries, wg *sync.WaitGroup, feed database.Feed) {
 
 	}
 	log.Printf("Feed %s collected, %v posts found", feed.Name, len(rssFeed.Channel.Item))
-
 }
