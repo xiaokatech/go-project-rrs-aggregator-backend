@@ -25,6 +25,14 @@ goose -version
 
 ## Commands
 
+### Query
+
+```bash
+sqlc generate
+```
+
+### Migration
+
 ```bash
 goose postgres postgres://postgres:postgres@localhost:5432/go-project-local up
 goose postgres postgres://postgres:postgres@localhost:5432/go-project-local down
